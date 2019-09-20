@@ -7,7 +7,7 @@ public class Exercicio4 {
     public static void main(String[] args) {
         String[][] matrizAgenda = new String[5][2];
         Scanner leitor = new Scanner(System.in);
-        boolean encontrado;
+        boolean encontrado = false;
 
         for (int linha = 0; linha < matrizAgenda.length; linha++) {
             for (int coluna = 0; coluna < matrizAgenda[0].length; coluna++) {
@@ -18,7 +18,6 @@ public class Exercicio4 {
                     System.out.println("Digite o telefone do seu amigo");
                 }
                 matrizAgenda[linha][coluna] = leitor.nextLine();
-
             }
         }
 
@@ -33,7 +32,7 @@ public class Exercicio4 {
                 }
 
             }
-            if(encontrado = false){
+            if(encontrado){
                 System.out.println("Numero não encontrado");
             }
 
