@@ -25,7 +25,6 @@ public class Exercicio1 {
 
         }
 
-
         public static void main(String[] args) {
 
             // Cria uma matriz de inteiros de 3 linhas e 4 colunas
